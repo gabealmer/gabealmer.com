@@ -1,0 +1,54 @@
+body {
+  font-family: 'PT Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  line-height: 1.3;
+  color: #666666;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 680px;
+  padding: 0 20px;
+  text-align: justify;
+}
+
+.container h1 {
+  font-size: 72px;
+  margin: 20px 0;
+  color: #333333;
+}
+
+.intro {
+  font-size: 28px;
+}
+
+.intro a {
+  color: #222222;
+}
+
+.followme {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.followme li {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.followme li:first-child {
+  margin-left: 0;
+}
+
+.followme a {
+  color: #222222;
+}
